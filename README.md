@@ -1,6 +1,6 @@
 # Pycharm 
 
-Qu'est ce que c'est ? 
+ Qu'est ce que c'est ? 
 
 C'est un environnement de développement intégré utiliser pour programmer en python
 
@@ -10,7 +10,7 @@ C'est un environnement de développement intégré utiliser pour programmer en p
 
   • C'est ainsi un excellent outil de programmation.
 
-  Les caractéristiques de Pycharm 
+ Les caractéristiques de Pycharm 
   
     Pycharm est livré avec une console python où vous pouvez écrire les scripts pendant que vous les exécutez. Les fenêtres peuvent être commutées en mode dock, en mode fenêtre     ou encoren en mode fractionné selon le goût et l'aisance de chacun.
     Il aide aide au codage et à l'analyse avec la complétion de code et l'analyse des erreurs et de la syntaxe.
