@@ -28,7 +28,7 @@ C'est un environnement de développement intégré utiliser pour programmer en p
               df = df.rename(columns={'Unnamed: 0': 'code-postal'})
               df
 
-        2) Afficher le contenu de chaque ligne 
+        2) Afficher le contenu de chaques lignes  
         
         for i, row in df.iterrows():
         print(row)
@@ -85,7 +85,7 @@ C'est un environnement de développement intégré utiliser pour programmer en p
            dfmoyenne = df.mean(axis=1)
            print(dfmoyenne)
            
-           10) Déterminer le minimum et le maximum de la colonne graminées
+           10) Déterminer le minimum et le maximum de la colonne graminée
            
               Le minimum 
               
