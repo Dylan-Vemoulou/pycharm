@@ -39,15 +39,6 @@ for i, row in df.iterrows():
         print(df2)
 
 
-
-
-        dft = df.loc[df['departements'] == '', ['graminees']] = 0
-        print(dft)
-
-        df2 = df.loc[df['graminees'] < 1]
-        df3 = df.loc[df['ambroisies'] < 1]
-        print(df2,df3)
-
 #Coupler les départements ou le niveau de graminees et ambroisies est identique
 for i, row in df.iterrows():
     graminees = row.loc['graminees']
@@ -64,31 +55,6 @@ for i, row in df.iterrows():
             if ambroisies == ambroisies1:
                 print(departements1)
 
-
-
-
-#Coupler les départements brouillon
-
-for i, row in df.iterrows():
-    graminees = row.loc['graminees']
-    ambroisies = row.loc['ambroisies']
-    if graminees == ambroisies:
-        departements = row.loc['departements']
-        print(departements)
-
-        liste = departements
-
-        print(liste)
-        columns = ['graminees', 'ambroisies']
-        departements = row.loc['departements']
-        index = [departements]
-        df = pd.DataFrame(index=index, columns=columns)
-        print(df)
-
-#Classer dans l'ordre croissant le niveau des départements en fonction du graminees
-
-print(df.sort_values(by=['graminees','ambroisies']))
-print(df)
 
 #Classer dans l'ordre décroissant le niveau des départements en fonction du graminees
 
