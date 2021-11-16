@@ -28,7 +28,7 @@ C'est un environnement de développement intégré utiliser pour programmer en p
               df = df.rename(columns={'Unnamed: 0': 'code-postal'})
               df
 
-        2) Afficher le contenu de chaques lignes  
+        2) Afficher le contenu des colonnes de chaques lignes  
         
         for i, row in df.iterrows():
         print(row)
