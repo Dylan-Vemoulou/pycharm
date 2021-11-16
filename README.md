@@ -25,11 +25,9 @@ C'est un environnement de développement intégré utiliser pour programmer en p
     
       Je vais afficher les différents codes qui m'ont permis de réussir les exercices.
       
-      Dans les différents qui suivent, je devais établir des codes en ayant un fichier csv (fichier informatique de type tableur) avec donc différentes données.
+      Dans les différents exercices qui suivent, je devais établir des codes en ayant un fichier csv (fichier informatique de type tableur) avec donc différentes données.
       
-        1) Séparer les différentes colonnes du CSV et rename la première colonne en "Code Postal"
-        
-          Voici le code : 
+        1) Séparer les différentes colonnes du CSV et rename la première colonne et passer de "Unnamed" à "Code Postal"
           
             # Séparation du CSV + rename de la colonne
 
