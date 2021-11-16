@@ -19,7 +19,7 @@ C'est un environnement de développement intégré utiliser pour programmer en p
  Les exercices 
  =============================
  
-| Exercices  | Difficultés          | Réussite |
+| Exercices  | Difficultées          | Réussite |
 | :--------------- |:---------------:| -----:|
 | 1  |   Facile        |  Oui |
 | 2  |   Facile        |   Oui |
