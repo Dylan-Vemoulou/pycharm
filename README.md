@@ -11,88 +11,26 @@ C'est un environnement de développement intégré utiliser pour programmer en p
   • C'est ainsi un excellent outil de programmation.
 
  Les caractéristiques de Pycharm 
-  
-    
+ =====================================
     Pycharm est livré avec une console python où vous pouvez écrire les scripts pendant que vous les exécutez. 
     Les fenêtres peuvent être commutées en mode dock, en mode fenêtre ou encore en mode fractionné selon le goût et l'aisance de chacun.
     Il aide aide au codage et à l'analyse avec la complétion de code et l'analyse des erreurs et de la syntaxe.
     
-    Les exercices Pycharm
-    
-      Dans les différents exercices qui suivent, je devais établir des codes en ayant un fichier csv (fichier informatique de type tableur) avec donc différentes données.
-      
-        1) Séparer les différentes colonnes du CSV et rename la première colonne et passer de "Unnamed" à "Code Postal"
-         
-              import pandas as pd
-              df = pd.read_csv('RA.csv', sep =';')
-              df = df.rename(columns={'Unnamed: 0': 'code-postal'})
-              df
-
-        2) Afficher le contenu des colonnes de chaques lignes  
-        
-        for i, row in df.iterrows():
-        print(row)
-  
-  
-        3) Afficher le nom des départements ou les graminées sont supérieur à 0
-        
-        for i, row in df.iterrows():
-          graminees = row.loc['graminees']
-          if graminees > 0:
-            departements = row.loc['departements']
-            print(departements)
-            
-         4) Même exercice mais sans utiliser de boucle for (en simplifiant le code)
-         
-         df1 = df.loc[df['graminees'] > 0]
-         print(df1)
-         
-         5) Afficher le ou les nom des départements ou les ambroisies et les graminées sont égales à 0
-         
-         for i, row in df.iterrows():
-           graminees = row.loc['graminees']
-           ambroisies = row.loc['ambroisies']
-           if (graminees and ambroisies) < 1:
-            departements = row.loc['departements']
-            print(departements)
-            
-          6) Même exercice sans utiliser de boucle for (en simplifiant le code)
-          
-          df2 = df.loc[df['graminees'] < 1]
-          df2 = df.loc[df['ambroisies'] < 1]
-          print(df2)
-          
-          7) Coupler les départements ou les niveaux des graminées et des ambroisies est identique 
-          
-          for i, row in df.iterrows():
-            graminees = row.loc['graminees']
-            ambroisies = row.loc['ambroisies']
-            departements = row.loc['departements']
-            print("-----------------------------------")
-            print(departements)
-            for j, row1 in df.iterrows():
-              graminees1 = row1.loc['graminees']
-              ambroisies1 = row1.loc['ambroisies']
-              departements1 = row1.loc['departements']
-              
-           8) Classer dans l'ordre décroissant le niveau des départements en fonction des graminées 
-           
-           print(df.sort_values(by=['graminees'],ascending=False))
-           print(df)
-         
-           9) Faire la moyenne du niveau de risques de chaques départements 
-           
-           dfmoyenne = df.mean(axis=1)
-           print(dfmoyenne)
-           
-           10) Déterminer le minimum et le maximum de la colonne graminée
-           
-              Le minimum 
-              
-              dfmin = df['graminees'].max()
-              print(dfmin)
-              
-              Le maximum 
-              
-              dfmax = df['graminees'].max()
-              print(dfmax)
+ Les exercices 
+ =============================
+ 
+| Exercices  | Difficultés          | Réussite |
+| :--------------- |:---------------:| -----:|
+| 1  |   Facile        |  Oui |
+| 2  |   Facile        |   Oui |
+| 3  |   Moyenne        |    Oui |
+| 4  |   Facile        |  Oui |
+| 5  |   Moyenne       |   Oui |
+| 6  |   Moyenne        |    Oui | 
+| 7 |   Difficile        |  Oui |
+| 8  |   Facile        |   Oui |
+| 9  |   Moyenne        |    Oui |
+| 9.1  |           |    Non |
+| 10  |   Moyenne        |  Non |
+| 11  |   Facile        |    Oui |
+| 12|   Facile       |    Oui |
