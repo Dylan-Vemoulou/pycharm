@@ -78,7 +78,7 @@ print(mediane)
 
 #Déterminer le minimum et le maximum
 
-dfmin = df['graminees'].max()
+dfmin = df['graminees'].min()
 print(dfmin)
 
 dfmax = df['graminees'].max()
@@ -91,7 +91,3 @@ print(dfimax)
 dfimin = df['graminees'].idxmin()
 print(dfimin)
 
-
-
-dfr = df[df.apply(lambda x: min(x) == max(x), 1)]
-print(dfr)
