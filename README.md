@@ -38,6 +38,6 @@ C'est un environnement de développement intégré utiliser pour programmer en p
 Ecercices non réussi
 =================
 
-L'exercice 9.1 consistuais à écrire un programme qui calcule la moyenne sans utiliser les fonctions déjà inscrites dans pycharm.
+L'exercice 9.1 consistuais à écrire un programme qui calcule la moyenne sans utiliser les fonctions déjà inscrites dans pycharm. La difficulté est de mettre en place l'algorithme et de le traduire.
 
-L'exercie 10 consistuais à trouver la valeur médianne de chaque colonne, le programme compile mais ne répond pas à la question demandé.
+L'exercie 10 consistuais à trouver la valeur médianne de chaque colonne, le programme compile mais ne répond pas à la question demandé, c'est une fonction que je connais pas.
