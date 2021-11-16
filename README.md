@@ -19,18 +19,10 @@ C'est un environnement de développement intégré utiliser pour programmer en p
     
     Les exercices Pycharm
     
-    Après m'être renseigné sur cet environnement, je me suis exercer pour mieux me familiariser avec Pycharm.
-    
-    J'ai participé à différents exercices.
-    
-      Je vais afficher les différents codes qui m'ont permis de réussir les exercices.
-      
       Dans les différents exercices qui suivent, je devais établir des codes en ayant un fichier csv (fichier informatique de type tableur) avec donc différentes données.
       
         1) Séparer les différentes colonnes du CSV et rename la première colonne et passer de "Unnamed" à "Code Postal"
-          
-            # Séparation du CSV + rename de la colonne
-
+         
               import pandas as pd
               df = pd.read_csv('RA.csv', sep =';')
               df = df.rename(columns={'Unnamed: 0': 'code-postal'})
@@ -50,7 +42,7 @@ C'est un environnement de développement intégré utiliser pour programmer en p
             departements = row.loc['departements']
             print(departements)
             
-         4) Même exercice mais sans utiliser de boucle for 
+         4) Même exercice mais sans utiliser de boucle for (en simplifiant le code)
          
          df1 = df.loc[df['graminees'] > 0]
          print(df1)
@@ -64,7 +56,7 @@ C'est un environnement de développement intégré utiliser pour programmer en p
             departements = row.loc['departements']
             print(departements)
             
-          6) Même exercice sans utiliser de boucle for 
+          6) Même exercice sans utiliser de boucle for (en simplifiant le code)
           
           df2 = df.loc[df['graminees'] < 1]
           df2 = df.loc[df['ambroisies'] < 1]
