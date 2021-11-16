@@ -12,7 +12,7 @@ C'est un environnement de développement intégré utiliser pour programmer en p
 
   Les caractéristiques de Pycharm 
   
-    Pycharme est livré avec une console python où vous pouvez écrire les scripts pendant que vous les exécutez. Les fenêtres peuvent être commutées en mode dock, en mode fenêtre ou encoren en mode fractionné selon le goût et l'aisance de chacun.
+    Pycharm est livré avec une console python où vous pouvez écrire les scripts pendant que vous les exécutez. Les fenêtres peuvent être commutées en mode dock, en mode fenêtre     ou encoren en mode fractionné selon le goût et l'aisance de chacun.
     Il aide aide au codage et à l'analyse avec la complétion de code et l'analyse des erreurs et de la syntaxe.
     
     Les exercices Pycharm
@@ -64,7 +64,7 @@ C'est un environnement de développement intégré utiliser pour programmer en p
             departements = row.loc['departements']
             print(departements)
             
-          6) Même exercices sans utiliser de boucle for 
+          6) Même exercice sans utiliser de boucle for 
           
           df2 = df.loc[df['graminees'] < 1]
           df2 = df.loc[df['ambroisies'] < 1]
@@ -93,7 +93,7 @@ C'est un environnement de développement intégré utiliser pour programmer en p
            dfmoyenne = df.mean(axis=1)
            print(dfmoyenne)
            
-           10) Dérerminer le minimum et le maximum de la colonne graminées
+           10) Déterminer le minimum et le maximum de la colonne graminées
            
               Le minimum 
               
