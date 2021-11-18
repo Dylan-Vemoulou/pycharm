@@ -24,16 +24,16 @@ C'est un environnement de développement intégré utiliser pour programmer en p
 | 1 # Séparation du CSV + rename de la colonne |   Facile        |  Oui |
 | 2 # Afficher le contenu de chaque ligne |   Facile        |   Oui |
 | 3 # Afficher le nom des départements ou les graminées > 0 |   Moyenne        |    Oui |
-| 4 # Afficher le nom des départements ou les graminées > 0 similaire (simplifié) |   Facile        |  Oui |
+| 4 # Afficher le nom des départements ou les graminées > 0 (simplifié) |   Facile        |  Oui |
 | 5 # Afficher le ou les noms de départements ou les niveau des graminnées et ambroisies est = 0 |   Moyenne       |   Oui |
 | 6 # Afficher le ou les noms de départements ou les niveau des graminnées et ambroisies est = 0 (simplifié) |   Moyenne        |    Oui | 
 | 7 # Coupler les départements ou le niveau de graminees et ambroisies est identique |   Difficile        |  Oui |
 | 8 # Classer dans l'ordre décroissant le niveau des départements en fonction du graminees |   Facile        |   Oui |
 | 9 # Moyenne du niveau de risque de chaque départements |   Moyenne        |    Oui |
-| 9.1 # Déterminer la valeur médiane |           |    Non |
-| 10  # Déterminer le minimum et le maximum|   Moyenne        |  Non |
-| 11  # Indice du min et max |   Facile        |    Oui |
-| 12|   Facile       |    Oui |
+| 9.1 # Moyenne du niveau de risque sans utilisé les fonction existantes |           |    Non |
+| 10  # Déterminer la valeur médiane |   Moyenne        |  Non |
+| 11  # Déterminer le minimum et le maximum |   Facile        |    Oui |
+| 12 # Indice du minimum et maximum |   Facile       |    Oui |
 
 Exercices non réussi
 =================
