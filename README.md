@@ -30,7 +30,7 @@ C'est un environnement de développement intégré utiliser pour programmer en p
 | 7 # Coupler les départements ou le niveau de graminees et ambroisies est identique |   Difficile        |  Oui |
 | 8 # Classer dans l'ordre décroissant le niveau des départements en fonction du graminees |   Facile        |   Oui |
 | 9 # Moyenne du niveau de risque de chaque départements |   Moyenne        |    Oui |
-| 9.1 # Moyenne du niveau de risque sans utilisé les fonction existantes |           |    Non |
+| 9.1 # Moyenne du niveau de risque sans utilisé les fonction existantes |   Diffcile        |    Non |
 | 10  # Déterminer la valeur médiane |   Moyenne        |  Non |
 | 11  # Déterminer le minimum et le maximum |   Facile        |    Oui |
 | 12 # Indice du minimum et maximum |   Facile       |    Oui |
